@@ -1,2 +1,2 @@
 # chemoinformatics
-Compilation of chemoinformatics and machine learning techniques
+Compilation of chemoinformatics and machine learning techniques, for drug discovery
