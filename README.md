@@ -11,11 +11,11 @@ The main objective is to create a compilation of different tutorials with explai
 ### Anaconda installation :
 If you don't have anaconda installed on your machine, please refere to the [anaconda website](https://docs.anaconda.com/anaconda/install/)
 ### Download the git repository
-git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
+$git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
 ### Create an ADN Anaconda environment 
-conda env create -f ADN.yml
+$conda env create -f ADN.yml
 ### Activate the Anaconda ADN environment
-conda activate ADN
+$conda activate ADN
 ### Lunch the jupyter notebook
-jupyter-notebook
+$jupyter-notebook
 
