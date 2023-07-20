@@ -5,6 +5,7 @@
   
 <img src="images/ADN_Chemoiinformatics.png" alt="logo chemoinfo"/>
 </p>
+
 * Introduction to chemoinformatics and Rdkit
 * Machine learning for drug discovery
 * Data collection and preprocessing for chemoinformatics and machine learning
