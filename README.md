@@ -1,8 +1,11 @@
 # Chemoinformatics and Machine Learning for Drug Discovery
 
 **Description:** This repository contains a set of tutorials that teach the basics of chemoinformatics and machine learning for drug discovery. The tutorials are designed for beginners, and they cover a variety of topics, including:
-
-Introduction to chemoinformatics and Rdkit
+<p align="center"> 
+  
+<img src="images/ADN_Chemoiinformatics.png" alt="logo chemoinfo"/>
+</p>
+* Introduction to chemoinformatics and Rdkit
 * Machine learning for drug discovery
 * Data collection and preprocessing for chemoinformatics and machine learning
 * Feature selection for chemoinformatics and machine learning
@@ -23,12 +26,8 @@ The tutorials are accompanied by Jupyter notebooks that allow you to follow alon
 
 **License:** The repository is licensed under the MIT License.
 
-Contact: If you have any questions or feedback, please feel free to contact me at [a.aouidate@uiz.ac.ma].
+**Contact:** If you have any questions or feedback, please feel free to contact me at [a.aouidate@uiz.ac.ma].
 
-<p align="center"> 
-  
-<img src="images/ADN_Chemoiinformatics.png" alt="logo chemoinfo"/>
-</p>
 
 # How to use :
 
