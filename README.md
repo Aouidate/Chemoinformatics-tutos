@@ -38,17 +38,23 @@ If you don't have anaconda installed on your machine, please refere to the [anac
 
 ### Download the git repository
 
-$git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
+`````` bash
+git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
+``
 
 ### Create an ADN Anaconda environment 
 
-$conda env create -f ADN.yml
+``` bash
+conda env create -f ADN.yml
+```
 
 ### Activate the Anaconda ADN environment
 
-$conda activate ADN
-
+```bash
+conda activate ADN
+```
 ### Lunch the jupyter notebook
 
-$jupyter-notebook
-
+```bash
+jupyter-notebook
+``````
