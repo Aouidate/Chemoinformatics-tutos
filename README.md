@@ -40,7 +40,7 @@ If you don't have anaconda installed on your machine, please refere to the [anac
 
 ``` bash
 git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
-``
+``````
 
 ### Create an ADN Anaconda environment 
 
