@@ -38,7 +38,7 @@ If you don't have anaconda installed on your machine, please refere to the [anac
 
 ### Download the git repository
 
-`````` bash
+``` bash
 git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
 ``
 
