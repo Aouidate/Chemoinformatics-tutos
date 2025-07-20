@@ -1,60 +1,51 @@
-# Chemoinformatics and Machine Learning for Drug Discovery
+# Chemoinformatics Tutorials: Generative Models with SELFIES and RNN
 
-**Description:** This repository contains a set of tutorials that teach the basics of chemoinformatics and machine learning for drug discovery. The tutorials are designed for beginners, and they cover a variety of topics, including:
-<p align="center"> 
-  
-<img src="images/ADN_Chemoiinformatics.png" alt="logo chemoinfo"/>
-</p>
+This repository contains a collection of Jupyter notebooks and resources for building generative models for molecules using SELFIES and recurrent neural networks (RNNs), with a focus on applications in chemoinformatics and drug discovery.
 
-* Introduction to chemoinformatics and Rdkit
-* Machine learning for drug discovery
-* Data collection and preprocessing for chemoinformatics and machine learning
-* Feature selection for chemoinformatics and machine learning
-* Model building for chemoinformatics and machine learning
-* Evaluation of chemoinformatics and machine learning models
+## Features
+- Data loading and preprocessing for molecular datasets
+- Conversion between SMILES and SELFIES representations
+- Building and training LSTM-based autoencoders in Keras
+- Visualization of latent spaces and chemical properties
+- Example notebooks for end-to-end workflows
 
-The tutorials are accompanied by Jupyter notebooks that allow you to follow along and practice the concepts.
+## Repository Structure
+- `notebooks/` — Jupyter notebooks for each tutorial (move your `.ipynb` files here for better organization)
+- `databases/` — Molecular datasets (SMILES, SDF, CSV)
+- `models/` — Saved model weights and pickles
+- `images/` — Figures and plots
+- `logs/` — Training logs
 
-**Audience:** This repository is intended for beginners who are interested in learning about chemoinformatics and machine learning for drug discovery.
+## Getting Started
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
+   cd Chemoinformatics-tutos
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+4. **Open a notebook and follow the instructions.**
 
-**Prerequisites:** No prior knowledge of chemoinformatics or machine learning is required. However, some familiarity with Python is helpful.
+## Example Notebooks
+- `ADN_T014_Selfies_based_AE_Generative_model.ipynb`: Main tutorial for building a generative model using SELFIES and LSTM.
 
-**Installation:** To install the tutorials, you will need to have Python 3 and Jupyter Notebook installed. You can install Python and Jupyter Notebook by following the instructions on the Python website: https://www.python.org/ and the Jupyter Notebook website: https://jupyter.org/. otherwise follow **How to use it** bellow.
+## Data Sources
+- Datasets are provided in the `databases/` folder. Please cite original sources if you use them in publications.
 
-**Usage:** To use the tutorials, simply clone the repository to your computer and open the Jupyter notebooks in a web browser. The notebooks are divided into sections, and each section contains a tutorial on a specific topic.
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-**Contributing:** If you would like to contribute to the repository, please feel free to open a pull request.
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-**License:** The repository is licensed under the MIT License.
+## Author
+Adnane Aouidate
 
-**Contact:** If you have any questions or feedback, please feel free to contact me at [a.aouidate@uiz.ac.ma].
-
-
-# How to use :
-
-### Anaconda installation :
-
-If you don't have anaconda installed on your machine, please refere to the [anaconda website](https://docs.anaconda.com/anaconda/install/)
-
-### Download the git repository
-
-``` bash
-git clone https://github.com/Aouidate/Chemoinformatics-tutos.git
-``````
-
-### Create an ADN Anaconda environment 
-
-``` bash
-conda env create -f ADN.yml
-```
-
-### Activate the Anaconda ADN environment
-
-```bash
-conda activate ADN
-```
-### Lunch the jupyter notebook
-
-```bash
-jupyter-notebook
-``````
+---
+For questions or suggestions, please open an issue or submit a pull request.
